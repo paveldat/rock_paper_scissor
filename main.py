@@ -20,6 +20,7 @@ def main():
     while True:
         imgBG = cv2.imread("Resources/BG.png")
         _, img = cap.read()
+        img = cv2.flip(img, 1)
 
         imgScaled = cv2.resize(img, (0, 0), None, 0.875, 0.875)
         imgScaled = imgScaled[:, 80:480]
