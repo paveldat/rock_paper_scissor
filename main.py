@@ -43,11 +43,12 @@ def main():
                         playerMove = None
                         hand = hands[0]
                         fingers = detector.fingersUp(hand)
-                        if fingers == [0, 0, 0, 0, 0]:
+                        print(fingers)
+                        if fingers == [1, 0, 0, 0, 0]:
                             playerMove = 1
-                        if fingers == [1, 1, 1, 1, 1]:
+                        if fingers == [0, 1, 1, 1, 1]:
                             playerMove = 2
-                        if fingers == [0, 1, 1, 0, 0]:
+                        if fingers == [1, 1, 1, 0, 0]:
                             playerMove = 3
 
                         randomNumber = random.randint(1, 3)
