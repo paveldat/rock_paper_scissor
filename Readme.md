@@ -17,7 +17,7 @@ To solve it just change the value in this line (for example to `1`).
 Increment this number until you see your webcam.
 
 ## How to play
-Press "s" to start the game
+Press `s` to start the game
 
 ## Result
 ![Alt Text](https://github.com/paveldat/rock_paper_scissor/blob/main/result/result.gif)
