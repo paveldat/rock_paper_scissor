@@ -26,7 +26,7 @@ def main():
         imgScaled = imgScaled[:, 80:480]
 
         # Find Hands
-        hands, img = detector.findHands(imgScaled)  # with draw
+        hands, img = detector.findHands(imgScaled, flipType=False)
 
         if startGame:
 
